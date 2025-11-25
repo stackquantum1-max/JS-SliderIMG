@@ -91,3 +91,58 @@ body {
   font-weight: 500;
   font-style: italic;
 }
+
+.slider-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background: #f8f8f8;
+}
+
+.slider-container {
+  display: flex;
+  gap: 20px; /* spacing between left and right image */
+  flex-wrap: wrap; /* allows responsiveness */
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  position: relative;
+  flex: 1 1 300px; /* allows slide to shrink/expand */
+  max-width: 400px;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.slide button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(34, 15, 10, 0.7);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* Left image button */
+.slide .prev {
+  left: 0; /* stick to left edge of its div */
+}
+
+/* Right image button */
+.slide .next {
+  right: 0; /* stick to right edge of its div */
+}

@@ -96,8 +96,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  background: rgba(43, 37, 36, 0.8);
 }
 
 .slider-container {
@@ -165,10 +165,10 @@ body {
 
 .footer {
   width: 100%;
-  background: rgba(34, 15, 10, 0.8); /* same as top header */
+  background: rgba(34, 15, 10, 0.8);
   padding: 10px 0;
-  box-shadow: 0 -1px 4px rgba(0,0,0,0.06); /* subtle shadow on top */
-  margin-top: 50px; /* space from slider */
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.06);
+  /* margin-top: 10px; */
 }
 
 .navbar-footer .nav-links-footer {
@@ -179,7 +179,6 @@ body {
   gap: 1.25rem;
   align-items: center;
   justify-content: space-evenly;
-  /* border: 2px solid #fff; */
   border-radius: 5px;
 }
 

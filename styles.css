@@ -163,25 +163,33 @@ body {
   color: white;             
 }
 
-.slider-bottom-buttons {
+.footer {
+  width: 100%;
+  background: rgba(34, 15, 10, 0.8); /* same as top header */
+  padding: 10px 0;
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.06); /* subtle shadow on top */
+  margin-top: 50px; /* space from slider */
+}
+
+.navbar-footer .nav-links-footer {
+  list-style: none;
+  margin: 0;
+  padding: 0.75rem 1rem;
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid #fff; */
+  border-radius: 5px;
 }
 
-.slider-bottom-buttons button {
-  padding: 10px 25px;
-  border: 2px solid #22110A;
-  background: transparent;
-  color: #22110A;
-  font-weight: 600;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
+.navbar-footer .nav-links-footer li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 650;
+  transition: color 0.3s;
 }
 
-.slider-bottom-buttons button:hover {
-  background: #22110A;
-  color: #fff;
+.navbar-footer .nav-links-footer li a:hover {
+  color: #ff2600;
 }

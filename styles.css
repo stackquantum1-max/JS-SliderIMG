@@ -112,7 +112,6 @@ body {
   position: relative;
 }
 
-/* subtle middle divider/shadow */
 .slider-container::before {
   content: "";
   position: absolute;
@@ -120,7 +119,7 @@ body {
   bottom: 0;
   left: 50%;
   width: 2px;
-  background: rgba(0,0,0,0.1);  /* subtle shadow line */
+  background: rgba(0,0,0,0.1);
   transform: translateX(-50%);
   z-index: 1;
 }
@@ -168,7 +167,6 @@ body {
   background: rgba(34, 15, 10, 0.8);
   padding: 10px 0;
   box-shadow: 0 -1px 4px rgba(0,0,0,0.06);
-  /* margin-top: 10px; */
 }
 
 .navbar-footer .nav-links-footer {

@@ -39,38 +39,51 @@ body {
   font-weight: 650;
 }
 
-/* ===== HERO TEXT SECTION ===== */
 .hero-text {
+  position: relative;
   height: 50vh;
   background: url("https://cdn1.ozone.ru/s3/multimedia-1-c/7480482852.jpg") no-repeat center center/cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 80px; /* avoid header overlap */
-}
-
-/* container box */
-.hero-content {
-  background: rgba(136, 67, 49, 0.8); /* transparent brown overlay */
-  border: 2px solid #fff;
-  border-radius: 12px;
-  padding: 20px 35px;
-  text-align: center;
-  max-width: 700px;
-  margin: 0 20px;        /* spacing from left and right */
+  gap: 60px;
+  padding-top: 80px;
   color: #fff;
 }
 
-/* heading text */
+.hero-text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+  border-radius: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(136, 67, 49, 0.8);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px 50px;
+  max-width: 650px;
+  text-align: center;
+}
+
+/* H1 styling */
 .hero-content h1 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.3;
 }
 
-/* paragraph text */
+/* P styling */
 .hero-content p {
   font-size: 1.1rem;
-  margin-top: 10px;
   font-weight: 500;
 }

@@ -162,3 +162,26 @@ body {
   left: 0;    
   color: white;             
 }
+
+.slider-bottom-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.slider-bottom-buttons button {
+  padding: 10px 25px;
+  border: 2px solid #22110A;
+  background: transparent;
+  color: #22110A;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slider-bottom-buttons button:hover {
+  background: #22110A;
+  color: #fff;
+}

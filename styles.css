@@ -30,10 +30,39 @@ body {
   align-items: center;
   justify-content: space-evenly;
   border: #ffff 1px solid;
+  border-radius: 5px;
 }
 
 .navbar .nav-links li a {
   text-decoration: none;
   color: #ffffff;
   font-weight: 650;
+}
+
+.hero-text {
+  height: 50vh;
+  background: url("https://cdn1.ozone.ru/s3/multimedia-1-c/7480482852.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+  color: #ffff;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  /* max-width: 700px; */
+  line-height: 1.3;
+  border: #ffff 2px solid;
+  border-radius: 5px
+  background-color: #884331;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 12px;
 }

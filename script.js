@@ -42,7 +42,7 @@ function handleNextClick() {
 
     leftImg.classList.remove("slide-left");
     rightImg.classList.remove("slide-left");
-  }, 500); // must match CSS animation duration
+  }, 1000); // must match CSS animation duration
 }
 
 // PREV BUTTON FUNCTION
@@ -59,7 +59,7 @@ function handlePrevClick() {
 
     leftImg.classList.remove("slide-right");
     rightImg.classList.remove("slide-right");
-  }, 500);
+  }, 1000);
 }
 
 // 5. EVENT LISTENERS

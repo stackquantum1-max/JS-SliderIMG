@@ -170,7 +170,7 @@ body {
   display: block;
   border-radius: inherit;
   box-shadow: 0 6px 18px rgba(0,0,0,0.18);
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
 
 /* buttons: transparent and edge-aligned */
@@ -201,7 +201,7 @@ body {
 /* ===== FOOTER ===== */
 .footer {
   width: 100%;
-  background: rgba(34,15,10,0.8);
+  background: rgba(255, 255, 255, 0.8);
   padding: 12px 0;
   box-shadow: 0 -1px 4px rgba(0,0,0,0.06);
 }
@@ -222,7 +222,7 @@ body {
 
 .navbar-footer .nav-links-footer li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #1d1717;
   font-weight: 650;
   transition: color 0.2s;
 }

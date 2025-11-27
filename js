@@ -20,6 +20,5 @@ const rightImg = document.querySelector('[data-right-img]');
 const prevBtn = document.querySelector('[data-prev-btn]');
 const nextBtn = document.querySelector('[data-next-btn]');
 
-
-
+// 4. TRACK CURRENT INDEX
 let currentIndex = 0;

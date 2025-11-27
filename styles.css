@@ -10,11 +10,9 @@ html { font-size: 15px; }
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: rgba(34, 15, 10, 0.8);
-  color: #111;
   -webkit-font-smoothing: antialiased;
 }
 
-/* ===== HEADER ===== */
 .header {
   position: fixed;
   top: 0;
@@ -22,7 +20,7 @@ body {
   width: 100%;
   background: rgba(34,15,10,0.8);
   z-index: 1000;
-  padding: 6px 0;
+  padding: 3px 0;
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 

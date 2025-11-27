@@ -120,7 +120,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 18px 0 40px;
+  padding: 18px 0 20px;
   background: rgba(43,37,36,0.8);
 }
 
@@ -199,7 +199,7 @@ body {
 .navbar-footer .nav-links-footer {
   list-style: none;
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: 0 0.75rem;
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -212,7 +212,7 @@ body {
 
 .navbar-footer .nav-links-footer li a {
   text-decoration: none;
-  color: #1d1717;
+  color: #6b3232;
   font-weight: 650;
   transition: color 0.2s;
 }

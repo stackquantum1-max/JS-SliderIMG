@@ -45,6 +45,23 @@ function handleNextClick() {
   }, 500); // must match CSS animation duration
 }
 
+// PREV BUTTON FUNCTION
+function handlePrevClick() {
+  leftImg.classList.add("slide-right");
+  rightImg.classList.add("slide-right");
+
+  setTimeout(() => {
+    nextIndex = currentIndex;
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+
+    leftImg.src = images[currentIndex];
+    rightImg.src = images[nextIndex];
+
+    leftImg.classList.remove("slide-right");
+    rightImg.classList.remove("slide-right");
+  }, 500);
+}
+
 // 5. EVENT LISTENERS
 prevBtn.addEventListener("click", handlePrevClick);
 nextBtn.addEventListener("click", handleNextClick);

@@ -188,8 +188,8 @@ body {
 }
 
 /* correct positions */
-.slide .prev { left: 8px; transform: translateX(-100%); }
-.slide .next { right: 8px; transform: translateX(100%); }
+.slide .prev { left: 28px; transform: translateX(-100%); }
+.slide .next { right: 28px; transform: translateX(100%); }
 
 /* ===== FOOTER ===== */
 .footer {

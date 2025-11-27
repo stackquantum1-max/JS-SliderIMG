@@ -24,6 +24,10 @@ const nextBtn = document.querySelector('[data-next-btn]');
 let currentIndex = 0;      // Left image
 let nextIndex = 1;         // Right image
 
+// INITIAL LOAD
+leftImg.src = images[currentIndex];
+rightImg.src = images[nextIndex];
+
 
 
 // 5. EVENT LISTENERS

@@ -15,8 +15,8 @@ const images = [
 // 2. TARGET DOM ELEMENTS WITH DATA ATTRIBUTES
 
 // 3. TARGET BUTTONS AND IMAGES
-const leftImg = document.querySelector('[data-left-img]');
-const rightImg = document.querySelector('[data-right-img]');
+const leftImg = document.querySelector('[data-left-img] img');
+const rightImg = document.querySelector('[data-right-img] img');
 const prevBtn = document.querySelector('[data-prev-btn]');
 const nextBtn = document.querySelector('[data-next-btn]');
 

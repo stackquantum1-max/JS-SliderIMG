@@ -28,7 +28,22 @@ let nextIndex = 1;         // Right image
 leftImg.src = images[currentIndex];
 rightImg.src = images[nextIndex];
 
+// NEXT BUTTON FUNCTION
+function handleNextClick() {
+  leftImg.classList.add("slide-left");
+  rightImg.classList.add("slide-left");
 
+  setTimeout(() => {
+    currentIndex = nextIndex;
+    nextIndex = (nextIndex + 1) % images.length;
+
+    leftImg.src = images[currentIndex];
+    rightImg.src = images[nextIndex];
+
+    leftImg.classList.remove("slide-left");
+    rightImg.classList.remove("slide-left");
+  }, 500); // must match CSS animation duration
+}
 
 // 5. EVENT LISTENERS
 prevBtn.addEventListener("click", handlePrevClick);

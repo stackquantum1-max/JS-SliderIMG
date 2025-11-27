@@ -22,3 +22,10 @@ const nextBtn = document.querySelector('[data-next-btn]');
 
 // 4. TRACK CURRENT INDEX
 let currentIndex = 0;
+
+
+
+
+// 5. EVENT LISTENERS
+prevBtn.addEventListener("click", handlePrevClick);
+nextBtn.addEventListener("click", handleNextClick);

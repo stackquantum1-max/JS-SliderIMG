@@ -1,9 +1,9 @@
-## Image Slider Project
+Image Slider Project
 
 A sleek, responsive, and dynamic image slider built with HTML, CSS, and JavaScript. This project demonstrates DOM manipulation, smooth transitions, and interactive UI design. Perfect for learning how to create rotating sliders and engaging visual layouts for web pages.
 
 
-##🔹 Features
+🔹 Features
 
 Dual-image slider: Displays two images at a time with left/right navigation.
 
@@ -16,7 +16,7 @@ Responsive design: Works perfectly on desktop, tablet, and mobile devices.
 Clean UI: Minimal and visually appealing layout.
 
 
-##🔹 Technologies Used
+🔹 Technologies Used
 
 HTML5 – Semantic structure for accessibility and SEO.
 
@@ -25,7 +25,7 @@ CSS3 – Flexbox, transitions, transforms, and responsive styling.
 JavaScript (Vanilla JS) – DOM manipulation, event listeners, and dynamic image handling.
 
 
-##🔹 How It Works
+🔹 How It Works
 
 Image Array: All image URLs are stored in a JavaScript array.
 
@@ -40,7 +40,7 @@ Smooth Transitions: CSS transition and transform provide sliding animation.
 Wrap-around: The slider loops through images infinitely.
 
 
-##🔹 Setup & Usage
+🔹 Setup & Usage
 
 Clone the repository
 
@@ -48,23 +48,15 @@ git clone https://github.com/stackquantum1-max/JS-SliderIMG.git
 cd JS-SliderIMG
 
 Open index.html in your browser
-
 Interact with the slider using the left (❮) and right (❯) buttons.
 
 
-## bash🔹 Project Structure
-JS-SliderIMG/
-├─ index.html         # Main HTML file
-├─ styles.css         # Stylesheet with responsive layout and animations
-├─ script.js          # JavaScript logic for the slider
-└─ README.md          # Project documentation
-
-##🔹 License
+🔹 License
 
 This project is MIT licensed. See LICENSE for details.
 
 
-##🔹 What You’ll Learn
+🔹 What You’ll Learn
 
 Building interactive UI components with HTML, CSS, and JS.
 
